@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>بازی افعال — فوق پیشرفته</title>
+</head>
+<body style="overflow:hidden;">
+    <div class="main-box">
+        <div class="tmb">
+            <p class="btxt game-title">وزن درست را انتخاب کن</p>
+        </div>
+
+        <div class="game-frame">
+            <section id="game-screen" class="game-screen">
+                <div class="game-header">
+                    <div class="game-status"><span>زمان:</span><strong id="game-timer">30</strong> ثانیه</div>
+                    <div class="game-status"><span>امتیاز:</span><strong id="game-score">0</strong></div>
+                </div>
+
+                <div class="game-question">
+                    <p class="game-question__label">فعل ماضی - مضارع:</p>
+                    <p class="game-question__verb" id="game-verb">---</p>
+                </div>
+
+                <div id="game-options" class="game-options"></div>
+            </section>
+
+            <section id="end-screen" class="game-end-screen hidden">
+                <p class="game-end-title">زمان تمام شد!</p>
+                <p class="game-end-score">امتیاز شما: <strong id="final-score">0</strong></p>
+            </section>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
